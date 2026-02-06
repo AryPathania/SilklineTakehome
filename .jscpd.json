@@ -1,0 +1,14 @@
+{
+  "threshold": 3,
+  "reporters": ["html", "console"],
+  "output": ".artifacts/jscpd",
+  "ignore": [
+    "node_modules",
+    "dist",
+    "coverage",
+    ".artifacts",
+    "**/*.test.tsx",
+    "**/*.spec.ts"
+  ],
+  "absolute": true
+}
