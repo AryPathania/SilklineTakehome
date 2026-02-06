@@ -47,3 +47,12 @@
   background-color: #2ecc71;
   box-shadow: 0 0 30px #2ecc71;
 }
+
+.light-purple {
+  background-color: #8e44ad;
+}
+
+.light-purple.light-active {
+  background-color: #f606ca;
+  box-shadow: 0 0 30px #f606ca;
+}
