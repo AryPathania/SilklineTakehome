@@ -41,6 +41,14 @@ npm run test:e2e
 
 **Important:** Run e2e only if Playwright is configured. If `npm run test:e2e` fails because the script doesn't exist or Playwright isn't installed, mark it as **SKIPPED** (not FAIL).
 
+## Documentation Check
+Verify that README.md:
+- Exists in project root
+- Contains project-specific content (not just template)
+- Has: description, commands, architecture overview
+
+Flag if README is missing or contains only Vite template content.
+
 ## Report Format
 After running validation, produce this report:
 
@@ -62,6 +70,9 @@ After running validation, produce this report:
 - Failed: X
 - Failures: [list with file:line if any]
 - Skipped reason: [if skipped]
+
+### Documentation: PASS/FAIL
+- README.md: [exists with project content / missing or template only]
 
 ### Overall: PASS/FAIL
 ```
